@@ -1,3 +1,2 @@
-markdown: redcarpet
 baseurl: /wwe-test
 exclude: ['README.md']
