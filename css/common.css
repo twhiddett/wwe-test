@@ -3,6 +3,7 @@ html {
 	padding: 0;
 
 	font: normal 100%/1.4 Georgia, serif;
+<<<<<<< HEAD
 }
 
 .current {
@@ -23,4 +24,6 @@ html {
 
 .nav-top {
 	font-size: 1.25rem
+=======
+>>>>>>> parent of 0f3f864... Added jekyll if statement
 }
