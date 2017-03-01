@@ -1,0 +1,12 @@
+<ul>
+	{% for info in site.pages %}
+		{% if info.type == include.type %}
+		<li>
+			<a href="{{site.baseurl}}{{info.url}}">
+				{{info.title}}
+				<p>{{info.meta}}</p>
+			</a>
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>
