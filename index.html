@@ -4,3 +4,14 @@ layout: default
 
 <h1>wwe test</h1>
 <p>Start of the website</p>
+
+<h2>Types of pages</h2>
+
+<ol>
+	{% for page in site.data.page-types %}
+	<li>
+		<a href="">{{page.title}}</a>
+		{{page.content | markdownify }}
+	</li>
+	{% endfor %}
+</ol>

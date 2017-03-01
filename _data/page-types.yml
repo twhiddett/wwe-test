@@ -1,0 +1,11 @@
+- title: Home-page
+  folder: home-page
+  content: 'A **home** page that is the first page a user sees'
+
+- title: News-page
+  folder: news-page
+  content: 'A **news** page that consists of all articles for a user to read'
+
+- title: Info-page
+  folder: info-page
+  content: 'A **information** page will all the information a user needs to inform themselves'
